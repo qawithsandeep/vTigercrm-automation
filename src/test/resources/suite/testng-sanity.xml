@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Nykaa Smoke Suite">
+    
+    <test name="SmokeTests">
+        <groups>
+            <run>
+                <include name="sanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.saroz.vtiger.tests.LoginTest"/>
+        </classes>
+    </test>
+    
+</suite>

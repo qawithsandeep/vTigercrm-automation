@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Nykaa Full Regression Suite" parallel="classes" thread-count="4">
+    
+    <test name="AllFeaturesTest">
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <include name="regression"/>
+            </run>
+        </groups>
+        
+        <classes>    
+            <class name="com.saroz.vtiger.tests.LoginTest."/>
+         
+        </classes>
+    </test>
+    
+</suite>
